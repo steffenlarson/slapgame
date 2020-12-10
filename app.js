@@ -27,9 +27,6 @@ function kick() {
 function update() {
     let healthUpdate = document.getElementById("health")
     healthUpdate.innerText = `${health} Hit Him Again!`
-
-
-
 }
 
 function update2() {
@@ -42,3 +39,8 @@ function hitCounter() {
 }
 
 
+// function die{
+//     if (health == 0) {
+
+//     }
+// }
