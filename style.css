@@ -5,3 +5,7 @@ header{ min-height: 8vh; }
 main{flex-grow: 1;} 
 footer{ min-height: 8vh;}
 
+/* .image-size{
+    height: 5em;
+    
+} */

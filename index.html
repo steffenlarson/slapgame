@@ -16,8 +16,11 @@
 <body>
     <header class="container-fluid text-center p-5 bg-primary">
         <div class="row">
-            <div class="col">
+            <div class="col-12">
                 <h1>Slap Game</h1>
+            </div>
+            <div class="col-12">
+                <span>Health: <span id="health">--</span></span>
             </div>
         </div>
     </header>
@@ -40,7 +43,13 @@
     <footer class="container-fluid text-center p-5 bg-primary">
         <div class="row">
             <div class="col">
-                <button class="btn-danger btn">SLAP</button>
+                <button class="btn-danger btn" onclick="slap()">SLAP</button>
+            </div>
+            <div class="col">
+                <button class="btn-danger btn" onclick="punch()">PUNCH</button>
+            </div>
+            <div class="col">
+                <button class="btn-danger btn" onclick="kick()">KICK</button>
             </div>
         </div>
     </footer>
