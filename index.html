@@ -20,7 +20,13 @@
                 <h1>Slap Game</h1>
             </div>
             <div class="col-12">
+                <span>Jar Jar <span id="Name"></span></span>
+            </div>
+            <div class="col-12">
                 <span>Health: <span id="health">--</span></span>
+            </div>
+            <div class="col-12">
+                <span> Hits: <span id="tag">--</span></span>
             </div>
         </div>
     </header>
@@ -42,14 +48,14 @@
 
     <footer class="container-fluid text-center p-5 bg-primary">
         <div class="row">
-            <div class="col">
-                <button class="btn-danger btn" onclick="slap()">SLAP</button>
+            <div class="col-4">
+                <button class="btn-danger btn" onclick="slap(); hitCounter()">SLAP</button>
             </div>
-            <div class="col">
-                <button class="btn-danger btn" onclick="punch()">PUNCH</button>
+            <div class="col-4">
+                <button class="btn-danger btn" onclick="punch(); hitCounter()">PUNCH</button>
             </div>
-            <div class="col">
-                <button class="btn-danger btn" onclick="kick()">KICK</button>
+            <div class="col-4">
+                <button class="btn-danger btn" onclick="kick(); hitCounter()">KICK</button>
             </div>
         </div>
     </footer>
