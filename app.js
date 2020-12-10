@@ -1,25 +1,47 @@
-let health = 100
-let victim = "Jar Jar"
+
+let adversary = [
+    {
+        name: "Jar Jar",
+        health: 100
+    },
+    {
+        name: "Anikan",
+        health: 140
+    },
+    {
+        name: "General Grevious",
+        health: 200
+    }
+]
+
+
+
+function select() {
+
+}
+
+// let health = 100
+// let victim = "Jar Jar"
 let hits = 0
 
 function slap() {
-    health = health - 1
-    console.log(health)
+    adversary.health = adversary.health - 1
+    console.log(adversary.health)
     update()
     update2()
 }
 
 
 function punch() {
-    health = health - 5
-    console.log(health)
+    adversary.[health] = adversary.health - 5
+    console.log(adversary.health)
     update()
     update2()
 }
 
 function kick() {
-    health = health - 10
-    console.log(health)
+    adversary.health = adversary.health - 10
+    console.log(adversary.health)
     update()
     update2()
 }
@@ -39,8 +61,3 @@ function hitCounter() {
 }
 
 
-// function die{
-//     if (health == 0) {
-
-//     }
-// }

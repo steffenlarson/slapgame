@@ -15,20 +15,31 @@
 
 <body>
     <header class="container-fluid text-center p-5 bg-primary">
-        <div class="row">
-            <div class="col-12">
-                <h1>Slap Game</h1>
+        <section class="info">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Slap Game</h1>
+                </div>
+                <div class="col-12">
+                    <span>Jar Jar <span id="Name"></span></span>
+                </div>
+                <div class="col-12">
+                    <span>Health: <span id="health">100</span></span>
+                </div>
+                <div class="col-12">
+                    <span> Hits: <span id="tag">0</span></span>
+                </div>
             </div>
-            <div class="col-12">
-                <span>Jar Jar <span id="Name"></span></span>
+        </section>
+        <section>
+            <div class="row p-5 ">
+                <div class="col-4"><button class="btn-success btn" onclick="select()">Jar Jar</button></div>
+
+                <div class="col-4"><button class="btn-success btn" onclick="select()">Anikan</button></div>
+
+                <div class="col-4"><button class="btn-success btn" onclick="select()">General Grevious</button></div>
             </div>
-            <div class="col-12">
-                <span>Health: <span id="health">100</span></span>
-            </div>
-            <div class="col-12">
-                <span> Hits: <span id="tag">0</span></span>
-            </div>
-        </div>
+        </section>
     </header>
 
 
